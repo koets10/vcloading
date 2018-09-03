@@ -1,0 +1,12 @@
+{
+  "name": "vcloading",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/.bin/uglifyjs src/index.js -c -o ./index.js"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.4.7"
+  }
+}
