@@ -112,7 +112,7 @@
             clearInterval(vcData.intval);
             vcData.intval = setInterval(
                 function() {
-                    if (Number.isNaN(vcData.count)) {
+                    if (isNaN(vcData.count)) {
                         clearInterval(vcData.intval);
                         setCount(0);
                         hide();
