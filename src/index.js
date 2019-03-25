@@ -84,7 +84,7 @@
     };
 
     var inserted = false;
-    var isNaN = isNaN || Number.isNaN;
+    var isNaN = window.isNaN || Number.isNaN;
     return {
         start: function (options) {
             options = options || {};
